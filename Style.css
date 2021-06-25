@@ -1,0 +1,58 @@
+* {
+margin: 0%;
+padding: 0;
+position: relative;
+box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.Nav-bar{
+background-color: 1F1F1F;
+text-align: right;
+}
+ul{
+    font-size: 24px;
+    padding: 20px;
+}
+.main{
+    background-color:070707;
+    padding:100%;
+}
+.active{
+    padding: 10px;
+    text-decoration: none;
+    color: D1345B;
+}
+ .active:hover{
+     color: whitesmoke;
+ }
+
+.Logo{
+    color: whitesmoke;
+    position: fixed;
+    top:35%;
+    right: 60%;
+    font-size: 20px;
+    text-shadow: 50%;
+    height: auto;
+}
+.About-me{
+color: whitesmoke;
+text-align: center;
+position: fixed;
+top: 40%;
+right: 53%;
+padding-top: -15%;
+height: auto;
+}
+img{
+    border-radius: 50px 25px;
+    position:fixed;
+    width: 28%;
+    top: 25%;
+    left: 60%;
+    max-width: 100%;
+    height: auto;
+}
